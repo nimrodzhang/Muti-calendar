@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Bgimage" representedClassName="Bgimage" syncable="YES">
+        <attribute name="photoData" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="CalColor" representedClassName="CalColor" syncable="YES">
+        <attribute name="colorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="normalColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wkdColor" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Course" representedClassName="Course" syncable="YES">
+        <attribute name="day" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="endhour" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="endminute" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isOnlyToday" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="month" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="starthour" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="startminute" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="weekday" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Document" representedClassName="Document" syncable="YES">
+        <attribute name="courseName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="docName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="docPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="docType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Bgimage" positionX="-18" positionY="99" width="128" height="60"/>
+        <element name="CalColor" positionX="-18" positionY="99" width="128" height="105"/>
+        <element name="Course" positionX="-27" positionY="18" width="128" height="210"/>
+        <element name="Document" positionX="-18" positionY="90" width="128" height="105"/>
+    </elements>
+</model>

@@ -1,0 +1,6 @@
+framework module Pods_Muti_calendar {
+  umbrella header "Pods-Muti-calendar-umbrella.h"
+
+  export *
+  module * { export * }
+}

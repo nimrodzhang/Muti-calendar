@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10D573C48046C32436F881C1 /* Pods_Muti_calendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E339D0811AED79931FEA88B2 /* Pods_Muti_calendar.framework */; };
+		181BA79C1FF4F3420083C345 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BA79B1FF4F3420083C345 /* UIColorExtension.swift */; };
+		183542221FE697C800017A89 /* Course+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183542201FE697C800017A89 /* Course+CoreDataClass.swift */; };
+		183542231FE697C800017A89 /* Course+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183542211FE697C800017A89 /* Course+CoreDataProperties.swift */; };
+		184AC0FB1FD8116E00F478DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184AC0FA1FD8116E00F478DE /* AppDelegate.swift */; };
+		184AC1001FD8116E00F478DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184AC0FE1FD8116E00F478DE /* Main.storyboard */; };
+		184AC1031FD8116E00F478DE /* Muti_calendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 184AC1011FD8116E00F478DE /* Muti_calendar.xcdatamodeld */; };
+		184AC1051FD8116E00F478DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184AC1041FD8116E00F478DE /* Assets.xcassets */; };
+		184AC1081FD8116E00F478DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184AC1061FD8116E00F478DE /* LaunchScreen.storyboard */; };
+		18590A921FDD4BFD00BB0DFE /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18590A911FDD4BFD00BB0DFE /* CalendarViewController.swift */; };
+		18590A941FDD4E6A00BB0DFE /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18590A931FDD4E6A00BB0DFE /* DateCollectionViewCell.swift */; };
+		185CC8731FF137D7005FF11E /* BackgroundCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CC8721FF137D7005FF11E /* BackgroundCollectionViewCell.swift */; };
+		187928981FED215A0009A59A /* ReadDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187928971FED215A0009A59A /* ReadDocumentViewController.swift */; };
+		187FEBC81FDBF95700F19193 /* CourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187FEBC71FDBF95700F19193 /* CourseTableViewController.swift */; };
+		187FEBCA1FDBF97100F19193 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187FEBC91FDBF97100F19193 /* CourseTableViewCell.swift */; };
+		187FEBCE1FDC124B00F19193 /* DocumentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187FEBCD1FDC124B00F19193 /* DocumentTableViewController.swift */; };
+		187FEBD01FDC12EF00F19193 /* DocumentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187FEBCF1FDC12EF00F19193 /* DocumentTableViewCell.swift */; };
+		187FEBD41FDC22D100F19193 /* NewDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187FEBD31FDC22D100F19193 /* NewDocumentViewController.swift */; };
+		187FEBD61FDC289B00F19193 /* NewCourseManuallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187FEBD51FDC289A00F19193 /* NewCourseManuallyViewController.swift */; };
+		18815E0C1FF52E9B00E3CFAF /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18815E0B1FF52E9B00E3CFAF /* GuideViewController.swift */; };
+		1891BA291FF4E3A2000BE4FC /* ThemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891BA281FF4E3A2000BE4FC /* ThemeCollectionViewCell.swift */; };
+		1891BA2B1FF4E3C3000BE4FC /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891BA2A1FF4E3C3000BE4FC /* ThemeViewController.swift */; };
+		18AD87541FF25D02006B55AC /* BackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD87531FF25D02006B55AC /* BackgroundViewController.swift */; };
+		18AD87561FF265B8006B55AC /* ImagePickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD87551FF265B8006B55AC /* ImagePickerCollectionViewCell.swift */; };
+		18AD87691FF280CB006B55AC /* Bgimage+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD87671FF280CB006B55AC /* Bgimage+CoreDataClass.swift */; };
+		18AD876A1FF280CB006B55AC /* Bgimage+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD87681FF280CB006B55AC /* Bgimage+CoreDataProperties.swift */; };
+		18B9EF491FF8D9050062593B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 18B9EF481FF8D9050062593B /* README.md */; };
+		18C4E9E81FF79E83007D6C83 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 18C4E9E71FF79E83007D6C83 /* icons */; };
+		18D36CCB1FEE7CCE00A3E3C6 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D36CCA1FEE7CCE00A3E3C6 /* UIImageExtension.swift */; };
+		18D36CCD1FEE953E00A3E3C6 /* todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D36CCC1FEE953E00A3E3C6 /* todo.swift */; };
+		18DF8F321FEA7B2D000F269F /* Document+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF8F301FEA7B2D000F269F /* Document+CoreDataClass.swift */; };
+		18DF8F331FEA7B2D000F269F /* Document+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF8F311FEA7B2D000F269F /* Document+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		181BA79B1FF4F3420083C345 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		183542201FE697C800017A89 /* Course+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataClass.swift"; sourceTree = "<group>"; };
+		183542211FE697C800017A89 /* Course+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		184AC0F71FD8116E00F478DE /* Muti-calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muti-calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184AC0FA1FD8116E00F478DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		184AC0FF1FD8116E00F478DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184AC1021FD8116E00F478DE /* Muti_calendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Muti_calendar.xcdatamodel; sourceTree = "<group>"; };
+		184AC1041FD8116E00F478DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184AC1071FD8116E00F478DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184AC1091FD8116E00F478DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18590A911FDD4BFD00BB0DFE /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		18590A931FDD4E6A00BB0DFE /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		185CC8721FF137D7005FF11E /* BackgroundCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCollectionViewCell.swift; sourceTree = "<group>"; };
+		187928971FED215A0009A59A /* ReadDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadDocumentViewController.swift; sourceTree = "<group>"; };
+		187FEBC71FDBF95700F19193 /* CourseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewController.swift; sourceTree = "<group>"; };
+		187FEBC91FDBF97100F19193 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
+		187FEBCD1FDC124B00F19193 /* DocumentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewController.swift; sourceTree = "<group>"; };
+		187FEBCF1FDC12EF00F19193 /* DocumentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewCell.swift; sourceTree = "<group>"; };
+		187FEBD31FDC22D100F19193 /* NewDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDocumentViewController.swift; sourceTree = "<group>"; };
+		187FEBD51FDC289A00F19193 /* NewCourseManuallyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCourseManuallyViewController.swift; sourceTree = "<group>"; };
+		18815E0B1FF52E9B00E3CFAF /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		1891BA281FF4E3A2000BE4FC /* ThemeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCollectionViewCell.swift; sourceTree = "<group>"; };
+		1891BA2A1FF4E3C3000BE4FC /* ThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
+		18AD87531FF25D02006B55AC /* BackgroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundViewController.swift; sourceTree = "<group>"; };
+		18AD87551FF265B8006B55AC /* ImagePickerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		18AD87671FF280CB006B55AC /* Bgimage+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bgimage+CoreDataClass.swift"; sourceTree = "<group>"; };
+		18AD87681FF280CB006B55AC /* Bgimage+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bgimage+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		18B9EF481FF8D9050062593B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18C4E9E71FF79E83007D6C83 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
+		18D36CCA1FEE7CCE00A3E3C6 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		18D36CCC1FEE953E00A3E3C6 /* todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todo.swift; sourceTree = "<group>"; };
+		18DF8F301FEA7B2D000F269F /* Document+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Document+CoreDataClass.swift"; sourceTree = "<group>"; };
+		18DF8F311FEA7B2D000F269F /* Document+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Document+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5715357DCF2F91E745A06174 /* Pods-Muti-calendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muti-calendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Muti-calendar/Pods-Muti-calendar.debug.xcconfig"; sourceTree = "<group>"; };
+		74C8F13CBE3DCF576EC47AC8 /* Pods-Muti-calendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muti-calendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Muti-calendar/Pods-Muti-calendar.release.xcconfig"; sourceTree = "<group>"; };
+		E339D0811AED79931FEA88B2 /* Pods_Muti_calendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muti_calendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184AC0F41FD8116E00F478DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D573C48046C32436F881C1 /* Pods_Muti_calendar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184AC0EE1FD8116E00F478DE = {
+			isa = PBXGroup;
+			children = (
+				18B9EF481FF8D9050062593B /* README.md */,
+				184AC0F91FD8116E00F478DE /* Muti-calendar */,
+				184AC0F81FD8116E00F478DE /* Products */,
+				D19A361069A3BDE70E747B4A /* Pods */,
+				2E2E82C4997223B3E8B37726 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		184AC0F81FD8116E00F478DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184AC0F71FD8116E00F478DE /* Muti-calendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184AC0F91FD8116E00F478DE /* Muti-calendar */ = {
+			isa = PBXGroup;
+			children = (
+				18C4E9E71FF79E83007D6C83 /* icons */,
+				18AD87671FF280CB006B55AC /* Bgimage+CoreDataClass.swift */,
+				18AD87681FF280CB006B55AC /* Bgimage+CoreDataProperties.swift */,
+				183542211FE697C800017A89 /* Course+CoreDataProperties.swift */,
+				183542201FE697C800017A89 /* Course+CoreDataClass.swift */,
+				18DF8F311FEA7B2D000F269F /* Document+CoreDataProperties.swift */,
+				18DF8F301FEA7B2D000F269F /* Document+CoreDataClass.swift */,
+				18D36CCA1FEE7CCE00A3E3C6 /* UIImageExtension.swift */,
+				181BA79B1FF4F3420083C345 /* UIColorExtension.swift */,
+				184AC0FA1FD8116E00F478DE /* AppDelegate.swift */,
+				184AC0FE1FD8116E00F478DE /* Main.storyboard */,
+				184AC1041FD8116E00F478DE /* Assets.xcassets */,
+				184AC1061FD8116E00F478DE /* LaunchScreen.storyboard */,
+				184AC1091FD8116E00F478DE /* Info.plist */,
+				184AC1011FD8116E00F478DE /* Muti_calendar.xcdatamodeld */,
+				18815E0B1FF52E9B00E3CFAF /* GuideViewController.swift */,
+				18590A911FDD4BFD00BB0DFE /* CalendarViewController.swift */,
+				18590A931FDD4E6A00BB0DFE /* DateCollectionViewCell.swift */,
+				18AD87531FF25D02006B55AC /* BackgroundViewController.swift */,
+				18AD87551FF265B8006B55AC /* ImagePickerCollectionViewCell.swift */,
+				185CC8721FF137D7005FF11E /* BackgroundCollectionViewCell.swift */,
+				1891BA2A1FF4E3C3000BE4FC /* ThemeViewController.swift */,
+				1891BA281FF4E3A2000BE4FC /* ThemeCollectionViewCell.swift */,
+				187FEBC71FDBF95700F19193 /* CourseTableViewController.swift */,
+				187FEBC91FDBF97100F19193 /* CourseTableViewCell.swift */,
+				187FEBD51FDC289A00F19193 /* NewCourseManuallyViewController.swift */,
+				187FEBCD1FDC124B00F19193 /* DocumentTableViewController.swift */,
+				187FEBCF1FDC12EF00F19193 /* DocumentTableViewCell.swift */,
+				187928971FED215A0009A59A /* ReadDocumentViewController.swift */,
+				187FEBD31FDC22D100F19193 /* NewDocumentViewController.swift */,
+				18D36CCC1FEE953E00A3E3C6 /* todo.swift */,
+			);
+			path = "Muti-calendar";
+			sourceTree = "<group>";
+		};
+		2E2E82C4997223B3E8B37726 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E339D0811AED79931FEA88B2 /* Pods_Muti_calendar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D19A361069A3BDE70E747B4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5715357DCF2F91E745A06174 /* Pods-Muti-calendar.debug.xcconfig */,
+				74C8F13CBE3DCF576EC47AC8 /* Pods-Muti-calendar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184AC0F61FD8116E00F478DE /* Muti-calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184AC10C1FD8116E00F478DE /* Build configuration list for PBXNativeTarget "Muti-calendar" */;
+			buildPhases = (
+				C41A2A2844D1F3A8CAE92C9D /* [CP] Check Pods Manifest.lock */,
+				184AC0F31FD8116E00F478DE /* Sources */,
+				184AC0F41FD8116E00F478DE /* Frameworks */,
+				184AC0F51FD8116E00F478DE /* Resources */,
+				E347E7B4CEC40463E81AEF97 /* [CP] Embed Pods Frameworks */,
+				1FFEE7F81E736528196641D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Muti-calendar";
+			productName = "Muti-calendar";
+			productReference = 184AC0F71FD8116E00F478DE /* Muti-calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184AC0EF1FD8116E00F478DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					184AC0F61FD8116E00F478DE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 184AC0F21FD8116E00F478DE /* Build configuration list for PBXProject "Muti-calendar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184AC0EE1FD8116E00F478DE;
+			productRefGroup = 184AC0F81FD8116E00F478DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184AC0F61FD8116E00F478DE /* Muti-calendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184AC0F51FD8116E00F478DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184AC1081FD8116E00F478DE /* LaunchScreen.storyboard in Resources */,
+				18C4E9E81FF79E83007D6C83 /* icons in Resources */,
+				18B9EF491FF8D9050062593B /* README.md in Resources */,
+				184AC1051FD8116E00F478DE /* Assets.xcassets in Resources */,
+				184AC1001FD8116E00F478DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FFEE7F81E736528196641D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Muti-calendar/Pods-Muti-calendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C41A2A2844D1F3A8CAE92C9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Muti-calendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E347E7B4CEC40463E81AEF97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Muti-calendar/Pods-Muti-calendar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Muti-calendar/Pods-Muti-calendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184AC0F31FD8116E00F478DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AD87691FF280CB006B55AC /* Bgimage+CoreDataClass.swift in Sources */,
+				18DF8F331FEA7B2D000F269F /* Document+CoreDataProperties.swift in Sources */,
+				1891BA291FF4E3A2000BE4FC /* ThemeCollectionViewCell.swift in Sources */,
+				183542231FE697C800017A89 /* Course+CoreDataProperties.swift in Sources */,
+				18AD876A1FF280CB006B55AC /* Bgimage+CoreDataProperties.swift in Sources */,
+				184AC1031FD8116E00F478DE /* Muti_calendar.xcdatamodeld in Sources */,
+				187FEBD41FDC22D100F19193 /* NewDocumentViewController.swift in Sources */,
+				18D36CCB1FEE7CCE00A3E3C6 /* UIImageExtension.swift in Sources */,
+				185CC8731FF137D7005FF11E /* BackgroundCollectionViewCell.swift in Sources */,
+				187FEBD61FDC289B00F19193 /* NewCourseManuallyViewController.swift in Sources */,
+				18815E0C1FF52E9B00E3CFAF /* GuideViewController.swift in Sources */,
+				18AD87541FF25D02006B55AC /* BackgroundViewController.swift in Sources */,
+				18AD87561FF265B8006B55AC /* ImagePickerCollectionViewCell.swift in Sources */,
+				18590A941FDD4E6A00BB0DFE /* DateCollectionViewCell.swift in Sources */,
+				187FEBC81FDBF95700F19193 /* CourseTableViewController.swift in Sources */,
+				1891BA2B1FF4E3C3000BE4FC /* ThemeViewController.swift in Sources */,
+				184AC0FB1FD8116E00F478DE /* AppDelegate.swift in Sources */,
+				18D36CCD1FEE953E00A3E3C6 /* todo.swift in Sources */,
+				183542221FE697C800017A89 /* Course+CoreDataClass.swift in Sources */,
+				181BA79C1FF4F3420083C345 /* UIColorExtension.swift in Sources */,
+				18DF8F321FEA7B2D000F269F /* Document+CoreDataClass.swift in Sources */,
+				18590A921FDD4BFD00BB0DFE /* CalendarViewController.swift in Sources */,
+				187928981FED215A0009A59A /* ReadDocumentViewController.swift in Sources */,
+				187FEBCE1FDC124B00F19193 /* DocumentTableViewController.swift in Sources */,
+				187FEBD01FDC12EF00F19193 /* DocumentTableViewCell.swift in Sources */,
+				187FEBCA1FDBF97100F19193 /* CourseTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		184AC0FE1FD8116E00F478DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184AC0FF1FD8116E00F478DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184AC1061FD8116E00F478DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184AC1071FD8116E00F478DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184AC10A1FD8116E00F478DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184AC10B1FD8116E00F478DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184AC10D1FD8116E00F478DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5715357DCF2F91E745A06174 /* Pods-Muti-calendar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Muti-calendar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.nju.zsh.Muti-calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184AC10E1FD8116E00F478DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C8F13CBE3DCF576EC47AC8 /* Pods-Muti-calendar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Muti-calendar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.nju.zsh.Muti-calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184AC0F21FD8116E00F478DE /* Build configuration list for PBXProject "Muti-calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184AC10A1FD8116E00F478DE /* Debug */,
+				184AC10B1FD8116E00F478DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184AC10C1FD8116E00F478DE /* Build configuration list for PBXNativeTarget "Muti-calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184AC10D1FD8116E00F478DE /* Debug */,
+				184AC10E1FD8116E00F478DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		184AC1011FD8116E00F478DE /* Muti_calendar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				184AC1021FD8116E00F478DE /* Muti_calendar.xcdatamodel */,
+			);
+			currentVersion = 184AC1021FD8116E00F478DE /* Muti_calendar.xcdatamodel */;
+			path = Muti_calendar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 184AC0EF1FD8116E00F478DE /* Project object */;
+}
