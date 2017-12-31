@@ -41,8 +41,8 @@ class ReadDocumentViewController: UIViewController, WKUIDelegate, WKNavigationDe
         if fileManager.fileExists(atPath: isFilepath!) {
             if docType == "zip" {
 
-                //let desPath:String = NSHomeDirectory() + "/Documents/"
-                let desPath:String = "/Users/apple/Desktop/test/"
+                let desPath:String = NSHomeDirectory() + "/Documents/"
+                //let desPath:String = "/Users/apple/Desktop/test/"
                 do {
                     try SSZipArchive.unzipFile(atPath: docPath!, toDestination: desPath, overwrite: true, password: nil)
                 }catch let error {

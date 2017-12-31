@@ -50,7 +50,17 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        if UserDefaults.standard.string(forKey: "barcolor") == nil {
+            UserDefaults.standard.set(barColorString, forKey: "barcolor")
+            UserDefaults.standard.set(normalColorString, forKey: "normalcolor")
+            UserDefaults.standard.set(wkdColorString, forKey: "wkdcolor")
+            UserDefaults.standard.set(todayColorString, forKey: "todaycolor")
+        }
+        if UserDefaults.standard.data(forKey: "backgroundimage") == nil {
+            let data = UIImagePNGRepresentation(#imageLiteral(resourceName: "BGI4"))
+            UserDefaults.standard.set(data, forKey: "backgroundimage")
+        }
         ToolBar.delegate = self
         
         // Do any additional setup after loading the view.

@@ -137,11 +137,11 @@ class NewDocumentViewController: UIViewController, UINavigationControllerDelegat
                     let downloadTask = self.downloadSession.downloadTask(with: self.curDownloadUrl!)
                     downloadTask.resume()
                     
-                    //let newLocation:String = NSHomeDirectory() + "/Documents/" + curDocName
+                    
                     self.curDocName = docname
                     self.curTypeName = typename
-                    
-                    let newLocation:String = "/Users/apple/Desktop/test/" + self.curDocName!
+                    let newLocation:String = NSHomeDirectory() + "/Documents/" + self.curDocName!
+                    //let newLocation:String = "/Users/apple/Desktop/test/" + self.curDocName!
                     self.saveFile(location: newLocation)
                 })
                 
@@ -277,8 +277,8 @@ class NewDocumentViewController: UIViewController, UINavigationControllerDelegat
             let downloadTask = downloadSession.downloadTask(with: curDownloadUrl!)
             downloadTask.resume()
             
-            //let newLocation:String = NSHomeDirectory() + "/Documents/" + curDocName!
-            let newLocation:String = "/Users/apple/Desktop/test/" + curDocName!
+            let newLocation:String = NSHomeDirectory() + "/Documents/" + curDocName!
+            //let newLocation:String = "/Users/apple/Desktop/test/" + curDocName!
             saveFile(location: newLocation)
         }
         
@@ -311,8 +311,8 @@ class NewDocumentViewController: UIViewController, UINavigationControllerDelegat
         print("download succ")
         print("ori loc:\(location)")
         let oriLocation = location.path
-        //let newLocation:String = NSHomeDirectory() + "/Documents/" + curDocName!
-        let newLocation:String = "/Users/apple/Desktop/test/" + curDocName!
+        let newLocation:String = NSHomeDirectory() + "/Documents/" + curDocName!
+        //let newLocation:String = "/Users/apple/Desktop/test/" + curDocName!
         let fileManager = FileManager.default
         do {
             try fileManager.copyItem(atPath: oriLocation, toPath: newLocation)

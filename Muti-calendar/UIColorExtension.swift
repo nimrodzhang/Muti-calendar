@@ -23,7 +23,7 @@ extension UIColor {
             cString = String(cString.dropFirst(2))
         }
         
-        if (cString.characters.count != 6) {
+        if (cString.count != 6) {
             return UIColor.black
         }
         

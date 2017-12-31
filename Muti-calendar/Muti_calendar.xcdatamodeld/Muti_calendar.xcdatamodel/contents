@@ -3,12 +3,6 @@
     <entity name="Bgimage" representedClassName="Bgimage" syncable="YES">
         <attribute name="photoData" optional="YES" attributeType="Binary" syncable="YES"/>
     </entity>
-    <entity name="CalColor" representedClassName="CalColor" syncable="YES">
-        <attribute name="colorName" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="normalColor" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="titleColor" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="wkdColor" optional="YES" attributeType="String" syncable="YES"/>
-    </entity>
     <entity name="Course" representedClassName="Course" syncable="YES">
         <attribute name="day" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="endhour" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
@@ -30,7 +24,6 @@
     </entity>
     <elements>
         <element name="Bgimage" positionX="-18" positionY="99" width="128" height="60"/>
-        <element name="CalColor" positionX="-18" positionY="99" width="128" height="105"/>
         <element name="Course" positionX="-27" positionY="18" width="128" height="210"/>
         <element name="Document" positionX="-18" positionY="90" width="128" height="105"/>
     </elements>

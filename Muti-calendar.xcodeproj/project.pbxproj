@@ -36,7 +36,6 @@
 		18B9EF491FF8D9050062593B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 18B9EF481FF8D9050062593B /* README.md */; };
 		18C4E9E81FF79E83007D6C83 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 18C4E9E71FF79E83007D6C83 /* icons */; };
 		18D36CCB1FEE7CCE00A3E3C6 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D36CCA1FEE7CCE00A3E3C6 /* UIImageExtension.swift */; };
-		18D36CCD1FEE953E00A3E3C6 /* todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D36CCC1FEE953E00A3E3C6 /* todo.swift */; };
 		18DF8F321FEA7B2D000F269F /* Document+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF8F301FEA7B2D000F269F /* Document+CoreDataClass.swift */; };
 		18DF8F331FEA7B2D000F269F /* Document+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF8F311FEA7B2D000F269F /* Document+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
@@ -72,7 +71,6 @@
 		18B9EF481FF8D9050062593B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18C4E9E71FF79E83007D6C83 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
 		18D36CCA1FEE7CCE00A3E3C6 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
-		18D36CCC1FEE953E00A3E3C6 /* todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todo.swift; sourceTree = "<group>"; };
 		18DF8F301FEA7B2D000F269F /* Document+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Document+CoreDataClass.swift"; sourceTree = "<group>"; };
 		18DF8F311FEA7B2D000F269F /* Document+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Document+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5715357DCF2F91E745A06174 /* Pods-Muti-calendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muti-calendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Muti-calendar/Pods-Muti-calendar.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,7 +142,6 @@
 				187FEBCF1FDC12EF00F19193 /* DocumentTableViewCell.swift */,
 				187928971FED215A0009A59A /* ReadDocumentViewController.swift */,
 				187FEBD31FDC22D100F19193 /* NewDocumentViewController.swift */,
-				18D36CCC1FEE953E00A3E3C6 /* todo.swift */,
 			);
 			path = "Muti-calendar";
 			sourceTree = "<group>";
@@ -314,7 +311,6 @@
 				187FEBC81FDBF95700F19193 /* CourseTableViewController.swift in Sources */,
 				1891BA2B1FF4E3C3000BE4FC /* ThemeViewController.swift in Sources */,
 				184AC0FB1FD8116E00F478DE /* AppDelegate.swift in Sources */,
-				18D36CCD1FEE953E00A3E3C6 /* todo.swift in Sources */,
 				183542221FE697C800017A89 /* Course+CoreDataClass.swift in Sources */,
 				181BA79C1FF4F3420083C345 /* UIColorExtension.swift in Sources */,
 				18DF8F321FEA7B2D000F269F /* Document+CoreDataClass.swift in Sources */,
